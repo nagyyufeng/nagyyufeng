@@ -44,6 +44,10 @@ body{
   line-height: 1.65;
 }
 
+#about {
+  scroll-margin-top: 60px; /* adjust to your topbar height */
+}
+
 .container{
   width: min(1100px, calc(100% - 40px));
   margin: 0 auto;
@@ -221,8 +225,8 @@ body{
   border: 6px solid rgba(249,210,99,0.45);
 }
 .avatar--lg{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border: 8px solid rgba(255,255,255,0.35);
 }
 
@@ -339,7 +343,7 @@ body{
 /* ===== Skills (bars) ===== */
 .skills{
   display:grid;
-  gap: 12px;
+  gap: 8px;
 }
 .skill{
   background:#fff;
@@ -389,23 +393,19 @@ body{
   margin: 12px 0 0;
   font-size: var(--t12);
   color: rgba(27,27,27,0.82);
-  /* background: rgba(255,255,255,0.28);
-  border: 1px solid rgba(255,255,255,0.28); */
   border-radius: var(--radius);
   padding: 8px 8px;
 }
 
 .contact{
-  margin-top: 14px;
-  /* background: rgba(255,255,255,0.30);
-  border: 1px solid rgba(255,255,255,0.28); */
+  margin-top: 0px;
   border-radius: var(--radius);
   padding: 14px 16px 16px;
 }
 .contact__grid{ display:grid; gap: 10px; margin-top: 10px; }
 .contact__row{
   display:grid;
-  grid-template-columns: 72px 1fr;
+  grid-template-columns: 100px 1fr;
   gap: 12px;
   align-items:center;
 }

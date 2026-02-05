@@ -2,6 +2,7 @@
 // Data (你之後可改圖與內容)
 // ======================
 const projectsLead = [
+  
   {
     title: "技能提升｜百堂創業課程",
     desc: "",
@@ -42,6 +43,19 @@ const projectsLead = [
       ]
     }
   },
+   {
+    title: "客服與資源媒合｜LINE官方帳號",
+    desc: "",
+    img: "assets/images/LINE.jpg",
+    details: {
+      role: "營運與管理LINE官方帳號",
+      highlights: [
+        "建立創業第一線諮詢窗口，累積近好友數達8,000人。",
+        "建置自動化回覆機制、常見問題集，提升回覆效率與客服品質。",
+        "整合創業資訊/補助計畫/合作窗口，協助對接適切資源。"
+      ]
+    }
+  },
   {
     title: "影響力擴散｜創業名人講座",
     desc: "",
@@ -75,11 +89,12 @@ const projectsCoop = [
   { title: "清大夜貓子電影院「我.們.家影展」－影展協力策劃", desc: "協力策展與執行細節。", img: "assets/images/home.jpg", details: { role: "協作", highlights: ["活動企劃協作", "現場支援"]}},
   { title: "清大夜貓子電影院「自由放映室」－Podcast 企劃與內容錄製", desc: "協力錄製與內容整理。", img: "assets/images/podcast.png", details: { role: "協作", highlights: ["錄製支援", "內容整理"]}},
   { title: "REAL 新竹區域接地支持實驗室《域報》－刊物編寫、人物採訪", desc: "協力資料整理與撰寫。", img: "assets/images/real.jpg", details: { role: "協作", highlights: ["資料整理", "文字撰寫"]}},
-  { title: "國立台灣文學館「展示教育組」－展覽實習", desc: "展覽規劃任務。", img: "assets/images/1949_1.png", details: { role: "協作", highlights: ["策劃協作", "執行支援"]}},
+  { title: "國立台灣文學館「展示教育組」－策展實習", desc: "展覽規劃任務。", img: "assets/images/1949_1.png", details: { role: "協作", highlights: ["策劃協作", "執行支援"]}},
 ];
 
 const projectsPublic = [
   { title: "2025 全球串流客家計畫—計畫執行者", desc: "參與公部門補助計畫，推動內容落地。", img: "assets/images/hakka_1.png", details: { role: "執行", highlights: ["計畫執行", "資源整合"]}},
+  { title: "2025 全球串流客家計畫—成果攝影集", desc: "參與公部門補助計畫，推動內容落地。", img: "assets/images/PHOTO.png", details: { role: "執行", highlights: ["計畫執行", "資源整合"]}},
   { title: "2024 第五屆桃園市民學藝員—計畫入選者", desc: "參與培力機制，累積藝文實務。", img: "assets/images/cuarator_1.png", details: { role: "入選", highlights: ["培力參與", "成果呈現"]}},
   { title: "2022 青年壯遊臺灣—尋找感動地圖實踐計畫—計畫執行者", desc: "運用資源理解地方脈絡與議題。", img: "assets/images/map.jpg", details: { role: "執行", highlights: ["地方議題實作", "企劃與執行"]}},
 ];
@@ -94,6 +109,7 @@ const skills = [
   { name: "產業調查與需求分析", score: 86 },
   { name: "提案與簡報技巧", score: 83 },
   { name: "文書軟體與 AI 工具應用", score: 91 }
+
 ];
 
 // ======================
